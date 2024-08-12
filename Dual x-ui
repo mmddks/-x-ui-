@@ -1,0 +1,17 @@
+1-نصب داکر
+bash <(curl -sSL https://get.docker.com)
+2-کلون کردن پوشه ی سنایی
+git clone https://github.com/MHSanaei/3x-ui.git 
+3-سپس ورود به پوشه با دستور
+cd 3x-ui 
+
+4-سپس مطمعن بشین پورت 2053 یا پورت مورد نظر از قبل آزاد است
+ sudo netstat -tnlp | grep :2053
+5- اجرا کنید
+docker compose up -d 
+
+(برای غیر فعال کردن کافیه تو پوشه بزنید
+docker compose down )
+برای ساخت تعداد بیشتر پنل به صورت ویدیویه موجود در یوتوب اقدام کنید
+
+https://www.youtube.com/watch?v=jQ_Go3zq8yY
